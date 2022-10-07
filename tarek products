@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>OnlineShop - Produits</title>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+    <img src="assets/img/logo.svg" alt="logo" width="300" height="200">
+  </a>
+  </header>
+  <nav>
+    <p align="right">
+   <a href="index.html">acceuil</a>
+   <a href="products.html">produits</a>
+   <a href="contact.html">contacts</a>
+   <a href="shopping-cart.html">panier</a>
+  </p>
+  </nav>
+ <main>
+  <aside>
+  <p>
+  <h3>catégories:</h3>
+  <table>
+    <tr><td><button id="productcategories">Appareils photo</button></td></tr>
+    <tr><td><button id="productcategories">Consoles</button></td></tr>
+    <tr><td><button id="productcategories">Écrans</button></td></tr>
+    <tr><td><button id="productcategories">Ordinateurs</button></td></tr>
+   <tr><td><button id="productcategories">Tous les produits</button></td></tr>
+  </table></p>
+ <p><h3>classement:</h3>
+ <table>
+  <tr><td><button id="productcriteria">Prix (bas-haut)</button></td></tr>
+  <tr><td><button id="productcriteria">Prix (haut-bas)</button></td></tr>
+  <tr><td><button id="productcriteria">Nom (A-Z)</button></td></tr>
+  <tr><td><button id="productcriteria">Nom (Z-A)</button></td></tr>
+ </table></p>
+  </aside>
+  <article>
+    <section>
+      <h1>produits</h1>
+      <h4>6 produits</h4>
+      <table>
+        <tr><td><p><a href="product.html"><h5 id="productslist">Apple TV</h5>
+          <br><img src="assets/img/apple-tv.png" alt="apple tv">
+          <br align="right">prix 249.99
+        </a></td></p>
+       <td><p><a href="product.html"><h5 id="productslist">EOS 5D Mark II</h5>
+          <br><img src="assets/img/camera-1.png" alt="Canon EOS 5D Mark II">
+          <br align="right">prix 2999.99
+        </a></td></p>
+        <td><p><a href="product.html"><h5id="productslist">Nikon D7000</h5>
+          <br><img src="assets/img/camera-2.png" alt="Nikon D7000">
+          <br align="right">prix 549.99
+        </a></td></p></tr>
+        <tr><td><p><a href="product.html"><h5 id="productslist">Canon PowerShot SD1300</h5>
+          <br><img src="assets/img/camera-3.png" alt="Canon PowerShot SD1300">
+          <br align="right">prix 299.99
+        </a></td></p>
+        <td><p><a href="product.html"><h5 id="productslist">Portable</h5>
+          <br><img src="assets/img/laptop-1.png" alt="Portable">
+          <br align="right">699.99
+        </a></td></p>
+        <td><p><a href="product.html"><h5 id="productslist">Portable professionnel</h5>
+          <br><img src="assets/img/laptop-2.png" alt="Portable professionnel">
+          <br align="right">599.99
+        </a></td></p></tr>
+       
+
+
+        
+
+
+      </table>
+
+    </section>
+  </article>
+
+ </main>
+ <footer>
+  <p>les membres de l equipes sont: 
+   <ul><li>tarek radwan(20231177)</li> 
+   <li>amir()</li>
+     <li>Beaudoin Félix(20244864)  </li>
+     </ul>
+   </p>
+ </footer>
+</body>
+</html>
