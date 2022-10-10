@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>OnlineShop - Panier</title>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+    <img src="assets/img/logo.svg" alt="logo" width="300" height="200">
+  </a>
+  </header>
+  <nav>
+    <p align="right">
+   <a href="index.html">acceuil</a>
+   <a href="products.html">produits</a>
+   <a href="contact.html">contacts</a>
+   <a href="shopping-cart.html">panier</a>
+  </p>
+  </nav>
+  <main>
+    <h1>panier</h1>
+<table>
+  <tr>
+  <th></th>
+  <th>nom</th>
+  <th>prix unitaire</th>
+  <th>quantité</th>
+  <th>prix</th>
+  </tr>
+  <tr>
+    <td><input type="reset" value="X"></td>
+    <td><a href="product.html">apple tv</a></td>
+    <td>249.99 $</td>
+    <td><input type="button" value="-"> 1<input type="button" value="+"></td>
+    <td>249.9 $</td>
+  </tr>
+  <tr>
+    <td><input type="reset" value="X"></td>
+    <td><a href="product.html">EOS 5D Mark II</a></td>
+    <td>2999.99 $</td>
+    <td><input type="button" value="-"> 1<input type="button" value="+"></td>
+    <td>2999.99 $</td>
+  </tr>
+  <tr>
+    <td><input type="reset" value="X"></td>
+    <td><a href="product.html">Nikon D7000</a></td>
+    <td>549.99 $</td>
+    <td><input type="button" value="-"> 1<input type="button" value="+"></td>
+    <td>5499.99 $</td>
+  </tr>
+</table>
+total 8749.88 $
+<p><input type="reset" value="vider le panier">
+<a href="order.html">commander</a></p>
+</main>
+<footer>
+  <p>les membres de l equipes sont: 
+   <ul><li>tarek radwan()</li> 
+   <li>amir()</li>
+     <li>Beaudoin Félix(20244864)  </li>
+     </ul>
+   </p>
+ </footer>
+</body>
+</html>
