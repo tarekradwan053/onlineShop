@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>OnlineShop - Commande</title>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+    <img src="assets/img/logo.svg" alt="logo" width="300" height="200">
+  </a>
+  </header>
+  <nav>
+    <p align="right">
+   <a href="index.html">acceuil</a>
+   <a href="products.html">produits</a>
+   <a href="contact.html">contacts</a>
+   <a href="shopping-cart.html">panier</a>
+  </p>
+  </nav>
+  <main>
+    <h1>page de commande</h1>
+    <h3>contact:</h3>
+    <form action="confirmation.html">
+      <p>
+      <label for="firstname">prénom:</label>
+      <input name="prénom" id="firstname" type="text" required>
+    </p>
+    <p>
+      <label for="lastname">nom:</label>
+      <input name="nom" id="lastname" type="text" required>
+    </p>
+    <p>
+      <label for="email">adresse courielle:</label>
+      <input name="adresse courielle" id="email" type="email" required>
+    </p>
+    <p>
+    <label for="phone">numéro de téléphone:</label>
+    <input name="numéro de téléphone" id="phone" type="text" required >
+    </p>
+    <h3>Paiement:</h3>
+    <p>
+    <label for="creditcard">Numéro de carte de crédit:</label>
+    <input name="Numéro de carte de crédit" id="creditcard" type="text" required >
+    </p>
+    <p>
+      <label for="creditcardexpiry">Date d’expiration de la carte:</label>
+      <input name="Date d’expiration de la carte" id="creditcardexpiry" type="text" required >
+      </p>
+      <a href="confirmation.html">
+        <input type="submit" value="Payer">
+      </a>
+    </form>
+  </main>
+  <footer>
+    <p>les membres de l equipes sont: 
+     <ul><li>tarek radwan()</li> 
+     <li>amir()</li>
+       <li>Beaudoin Félix(20244864)  </li>
+       </ul>
+     </p>
+   </footer>
+</body>
+</html>
